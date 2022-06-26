@@ -158,7 +158,7 @@ function main() {
         var tweets, tweetTexts, inferences, resultsAgg, _i, inferences_1, tweetScore, _a, tweetScore_1, labels;
         return __generator(this, function (_b) {
             switch (_b.label) {
-                case 0: return [4 /*yield*/, getRecentTweets('joe biden', 3)];
+                case 0: return [4 /*yield*/, getRecentTweets('putin', 3)];
                 case 1:
                     tweets = _b.sent();
                     tweetTexts = tweets.map(function (tweet) { return tweet.text; });

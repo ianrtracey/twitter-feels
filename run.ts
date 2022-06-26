@@ -71,7 +71,7 @@ const getRecentTweets = async (
 // getRecentTweets('joe biden', 3)
 
 async function main () {
-  const tweets = await getRecentTweets('joe biden', 3)
+  const tweets = await getRecentTweets('putin', 3)
   const tweetTexts = tweets.map(tweet => tweet.text)
   const inferences = await inferTweetSentiment(tweetTexts)
   const resultsAgg = {
