@@ -87,8 +87,9 @@ async function main () {
       }
     }
   }
+  const result = Object.keys(resultsAgg).map(key => resultsAgg[key])
   console.log(`$number of tweets scored: ${inferences.length}`)
-  console.log(resultsAgg)
+  console.log(result)
 }
 
 main()
